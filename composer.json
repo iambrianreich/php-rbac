@@ -1,0 +1,23 @@
+{
+    "name": "iambrianreich/php-rbac",
+    "description": "An simple authorization structure for PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Reich",
+            "email": "brian@brianreich.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "autoload" : {
+        "psr-4": {
+            "BHR\\" : "src/"
+        }
+    }
+}
